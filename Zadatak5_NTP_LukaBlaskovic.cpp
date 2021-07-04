@@ -21,6 +21,7 @@ public:
 		}
 	}
 };
+//epic komentar
 int main() {
 
 	list <int> lista;
