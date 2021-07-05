@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Luka/Documents/DogeGame
+C:/Users/Luka/Documents/GitHub/gameDevLZM/DogeGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-11000
-Successfully changed project path to: C:/Users/Luka/Documents/DogeGame
-C:/Users/Luka/Documents/DogeGame
+13176
+Successfully changed project path to: C:/Users/Luka/Documents/GitHub/gameDevLZM/DogeGame
+C:/Users/Luka/Documents/GitHub/gameDevLZM/DogeGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 21.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 25.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Luka/Documents/DogeGame/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Luka/Documents/GitHub/gameDevLZM/DogeGame/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001294 seconds.
+Registered in 0.001317 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 18.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 19.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.643 seconds
+- Completed reload, in  0.646 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002492 seconds.
+Registered in 0.002606 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.612 seconds
+- Completed reload, in  0.616 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 78.9 MB.
 System memory in use after: 79.0 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1843.
-Total: 1.508400 ms (FindLiveObjects: 0.119500 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.290000 ms  DeleteObjects: 0.064300 ms)
+Total: 1.604100 ms (FindLiveObjects: 0.100400 ms CreateObjectMapping: 0.047500 ms MarkObjects: 1.388300 ms  DeleteObjects: 0.067100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,78 +79,129 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Textures/RedWall/PaintedPlaster001_1K_Color.png
-  artifactKey: Guid(4b42dbe256dd31a42b5fa2422aef5a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/RedWall/PaintedPlaster001_1K_Color.png using Guid(4b42dbe256dd31a42b5fa2422aef5a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83682fcb0a224f63fdc2a2919b58e5e3') in 0.043210 seconds 
-  Import took 0.044861 seconds .
+  path: Assets/Scenes/Scene1.unity
+  artifactKey: Guid(6b43c2f1659411e458808924ec0b5869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene1.unity using Guid(6b43c2f1659411e458808924ec0b5869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e455e4afba3986612837830a9b05c2') in 0.011610 seconds 
+  Import took 0.013144 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Textures/RedWall/PaintedPlaster001_1K_Roughness.png
-  artifactKey: Guid(4588390fda52ff446b536e0f1a4e1b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/RedWall/PaintedPlaster001_1K_Roughness.png using Guid(4588390fda52ff446b536e0f1a4e1b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c8906c515d6179a5b0aa3a0313e288') in 0.011340 seconds 
-  Import took 0.012904 seconds .
+  Time since last request: 142.991116 seconds.
+  path: Assets/Materials/building1/Material.005 1.mat
+  artifactKey: Guid(81e7d83e396953b4daf90fdcef2c0fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/building1/Material.005 1.mat using Guid(81e7d83e396953b4daf90fdcef2c0fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aeea503fa570465b4a0d63437ba394f') in 0.061191 seconds 
+  Import took 0.063106 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Textures/RedWall/PaintedPlaster001_1K_Normal.png
-  artifactKey: Guid(530bf29fd0e958e4a89601fed27008a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/RedWall/PaintedPlaster001_1K_Normal.png using Guid(530bf29fd0e958e4a89601fed27008a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462a46486722d79887f06a943a77db88') in 0.006995 seconds 
-  Import took 0.008112 seconds .
+  Time since last request: 0.000130 seconds.
+  path: Assets/Materials/building1/Material.012 1.mat
+  artifactKey: Guid(5b89e8b5c1700604d89cf62e7e18fb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/building1/Material.012 1.mat using Guid(5b89e8b5c1700604d89cf62e7e18fb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb4432b88d9f7ab00bbd1e9f775941b') in 0.013256 seconds 
+  Import took 0.014777 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Textures/RedWall/PaintedPlaster001_1K_Displacement.png
-  artifactKey: Guid(655dd7614e4a2fc4684ce7db9dec1ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/RedWall/PaintedPlaster001_1K_Displacement.png using Guid(655dd7614e4a2fc4684ce7db9dec1ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c551ea2023fb51c6288442ce527f1c0b') in 0.007003 seconds 
-  Import took 0.008256 seconds .
+  Time since last request: 0.000129 seconds.
+  path: Assets/Materials/building1/Material.015 1.mat
+  artifactKey: Guid(d8163b5f336423841b02530755aafd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/building1/Material.015 1.mat using Guid(d8163b5f336423841b02530755aafd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60249b69093f4768f267a60aca863ab2') in 0.011028 seconds 
+  Import took 0.012874 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.750450 seconds.
-  path: Assets/Materials/RedWall.mat
-  artifactKey: Guid(a87a110570fd9ae47ba996adf9c2cc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/RedWall.mat using Guid(a87a110570fd9ae47ba996adf9c2cc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c914265484653b41cfcb1afb0b8b0c2') in 0.038370 seconds 
-  Import took 0.040224 seconds .
+  Time since last request: 0.000618 seconds.
+  path: Assets/Materials/building1/Material.015 1.mat
+  artifactKey: Guid(d8163b5f336423841b02530755aafd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/building1/Material.015 1.mat using Guid(d8163b5f336423841b02530755aafd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60249b69093f4768f267a60aca863ab2') in 0.008031 seconds 
+  Import took 0.009691 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002485 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.620 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.2 MB.
-System memory in use after: 82.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1887.
-Total: 1.450200 ms (FindLiveObjects: 0.100600 ms CreateObjectMapping: 0.026100 ms MarkObjects: 1.283700 ms  DeleteObjects: 0.039300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 522.670595 seconds.
-  path: Assets/Materials/RedWall.mat
-  artifactKey: Guid(a87a110570fd9ae47ba996adf9c2cc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/RedWall.mat using Guid(a87a110570fd9ae47ba996adf9c2cc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac248a3c945cd2c221940503df0b3aa') in 0.041747 seconds 
-  Import took 0.043894 seconds .
+  Time since last request: 1.263854 seconds.
+  path: Assets/Materials/building2/Material.015.mat
+  artifactKey: Guid(93bc7219fc1d83248b36627e1317c1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/building2/Material.015.mat using Guid(93bc7219fc1d83248b36627e1317c1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82286ec01dd8652d990626504bcea61') in 0.008151 seconds 
+  Import took 0.010062 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 43.479421 seconds.
+  path: Assets/3D models/bone.fbx
+  artifactKey: Guid(e9951882598d3f344a9fa82c16ce814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D models/bone.fbx using Guid(e9951882598d3f344a9fa82c16ce814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e33d0cefa0b3991eb4ea9844d7b09e') in 0.047875 seconds 
+  Import took 0.049733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.456709 seconds.
+  path: Assets/Textures/Marble019_1K_Color.png
+  artifactKey: Guid(d261127b9420fcb418b9d028cc20cde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Marble019_1K_Color.png using Guid(d261127b9420fcb418b9d028cc20cde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa7cb8de62bc2ca7d7aecf6f9f595c5') in 0.017784 seconds 
+  Import took 0.019551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.995004 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(553455e01e7e91641b0486734eae352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(553455e01e7e91641b0486734eae352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09fc4ce51cc6daf539b820604c70579') in 0.009292 seconds 
+  Import took 0.011160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.523521 seconds.
+  path: Assets/Materials/BoneMaterial.mat
+  artifactKey: Guid(553455e01e7e91641b0486734eae352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BoneMaterial.mat using Guid(553455e01e7e91641b0486734eae352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba504a41d64aa60faca2c35fd48bb2a') in 0.009143 seconds 
+  Import took 0.010971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 490.645106 seconds.
+  path: Assets/3D models/dog_snack_box.fbx
+  artifactKey: Guid(9dfefab241e56d443aa1ea0471bdb2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D models/dog_snack_box.fbx using Guid(9dfefab241e56d443aa1ea0471bdb2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13aaed006ee4e29bf139a34fd2aa468b') in 0.022618 seconds 
+  Import took 0.024622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.441184 seconds.
+  path: Assets/Textures/dog_snack.png
+  artifactKey: Guid(d35d10df368ba624890963edda73e6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/dog_snack.png using Guid(d35d10df368ba624890963edda73e6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cb40296158e657c8c9b43a4865012d') in 0.008318 seconds 
+  Import took 0.010153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.100396 seconds.
+  path: Assets/3D models/dog_snack_box.fbx
+  artifactKey: Guid(9dfefab241e56d443aa1ea0471bdb2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D models/dog_snack_box.fbx using Guid(9dfefab241e56d443aa1ea0471bdb2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47476b6f2bc042a2d2d5881140641a3') in 0.017954 seconds 
+  Import took 0.019793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 193.551731 seconds.
+  path: Assets/3D models/dog_snack_box.fbx
+  artifactKey: Guid(9dfefab241e56d443aa1ea0471bdb2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D models/dog_snack_box.fbx using Guid(9dfefab241e56d443aa1ea0471bdb2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41008f83c2428360f53fd31b96974955') in 0.012274 seconds 
+  Import took 0.014242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 305.055950 seconds.
+  path: Assets/Prefabs/bone.prefab
+  artifactKey: Guid(bd34588bd9f3e7544aef40026e8c1139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/bone.prefab using Guid(bd34588bd9f3e7544aef40026e8c1139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7433288602380dd0ba3a671b8bfee346') in 0.011132 seconds 
+  Import took 0.013413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.213354 seconds.
+  path: Assets/Prefabs/dog_snack_box.prefab
+  artifactKey: Guid(e088a1739dd486b4db9f47e6eb555ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/dog_snack_box.prefab using Guid(e088a1739dd486b4db9f47e6eb555ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1363c21cc4b74d1ebbc3c43edac8ec21') in 0.012419 seconds 
+  Import took 0.014354 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
