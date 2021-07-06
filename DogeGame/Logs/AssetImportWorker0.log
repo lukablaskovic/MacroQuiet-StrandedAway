@@ -16,11 +16,19 @@ C:/Users/Luka/Documents/GitHub/gameDevLZM/DogeGame
 Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 5059
 Successfully changed project path to: C:/Users/Luka/Documents/GitHub/gameDevLZM/DogeGame
 C:/Users/Luka/Documents/GitHub/gameDevLZM/DogeGame
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 20.17 ms, found 2 plugins.
+=======
+1139
+Successfully changed project path to: C:/Users/Luka/Documents/GitHub/gameDevLZM/DogeGame
+C:/Users/Luka/Documents/GitHub/gameDevLZM/DogeGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 19.73 ms, found 2 plugins.
+>>>>>>> Stashed changes
 =======
 1139
 Successfully changed project path to: C:/Users/Luka/Documents/GitHub/gameDevLZM/DogeGame
@@ -44,6 +52,7 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -59,6 +68,21 @@ Registering precompiled user dll's ...
 Registered in 0.002509 seconds.
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001315 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 19.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.652 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002605 seconds.
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
@@ -78,7 +102,11 @@ Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - Completed reload, in  0.619 seconds
+=======
+- Completed reload, in  0.618 seconds
+>>>>>>> Stashed changes
 =======
 - Completed reload, in  0.618 seconds
 >>>>>>> Stashed changes
@@ -87,7 +115,11 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+=======
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+>>>>>>> Stashed changes
 =======
 Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
 >>>>>>> Stashed changes
@@ -98,7 +130,11 @@ System memory in use after: 79.3 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1845.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Total: 1.609400 ms (FindLiveObjects: 0.101500 ms CreateObjectMapping: 0.029600 ms MarkObjects: 1.418200 ms  DeleteObjects: 0.059500 ms)
+=======
+Total: 1.617000 ms (FindLiveObjects: 0.117000 ms CreateObjectMapping: 0.033000 ms MarkObjects: 1.408200 ms  DeleteObjects: 0.058200 ms)
+>>>>>>> Stashed changes
 =======
 Total: 1.617000 ms (FindLiveObjects: 0.117000 ms CreateObjectMapping: 0.033000 ms MarkObjects: 1.408200 ms  DeleteObjects: 0.058200 ms)
 >>>>>>> Stashed changes
@@ -115,6 +151,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   path: Assets/3D models/door_lamp.fbx
   artifactKey: Guid(3927ece8549ff414b9a3495d64cb736e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -177,15 +214,21 @@ Received Import Request.
 Start importing Assets/Scripts/rbmovement.cs using Guid(c53712b6dbcce0740bc59ac68addf4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6a32568545d398ea4fe53692cc7492') in 0.010651 seconds 
   Import took 0.012681 seconds .
 =======
+=======
+>>>>>>> Stashed changes
   path: Assets/Prefabs/InvWall.prefab
   artifactKey: Guid(5d9fd9de753761145a85e16c111481d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/InvWall.prefab using Guid(5d9fd9de753761145a85e16c111481d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbc3680147df1b2745af4fa1a1ab79c') in 0.063039 seconds 
   Import took 0.064720 seconds .
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Registered in 0.002492 seconds.
 Begin MonoManager ReloadAssembly
@@ -292,15 +335,32 @@ Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.585 seconds
+=======
+Registered in 0.002385 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.590 seconds
+>>>>>>> Stashed changes
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+<<<<<<< Updated upstream
 System memory in use before: 82.7 MB.
 System memory in use after: 82.7 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1900.
 Total: 1.514300 ms (FindLiveObjects: 0.107000 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.334200 ms  DeleteObjects: 0.041100 ms)
+=======
+System memory in use before: 82.4 MB.
+System memory in use after: 82.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1856.
+Total: 1.542700 ms (FindLiveObjects: 0.129300 ms CreateObjectMapping: 0.040300 ms MarkObjects: 1.330500 ms  DeleteObjects: 0.041700 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -315,12 +375,17 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.002409 seconds.
+=======
+Registered in 0.002395 seconds.
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Completed reload, in  0.607 seconds
 =======
 Registered in 0.002385 seconds.
@@ -387,6 +452,11 @@ Total: 1.734900 ms (FindLiveObjects: 0.190700 ms CreateObjectMapping: 0.036300 m
 - Completed reload, in  0.576 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+=======
+- Completed reload, in  0.576 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 82.4 MB.
@@ -394,6 +464,9 @@ System memory in use after: 82.5 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1859.
 Total: 1.538400 ms (FindLiveObjects: 0.122000 ms CreateObjectMapping: 0.035000 ms MarkObjects: 1.340600 ms  DeleteObjects: 0.040100 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
