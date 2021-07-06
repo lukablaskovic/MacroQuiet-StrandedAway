@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 832160813503321628}
   - component: {fileID: 4333507706457594297}
   - component: {fileID: 2001640051146124659}
+  - component: {fileID: -6323225377524019888}
   m_Layer: 0
   m_Name: door_lamp
   m_TagString: Untagged
@@ -83,6 +84,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-6323225377524019888
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56221831890062502}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4389723938165198382, guid: 3927ece8549ff414b9a3495d64cb736e, type: 3}
 --- !u!1 &8958625194317568989
 GameObject:
   m_ObjectHideFlags: 0
