@@ -1024,9 +1024,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c748bf9e1741c3498511f1d1fd67ea0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
-  jumpSpeed: 1
-  gravityScale: 1
+  moveSpeed: 5
+  jumpSpeed: 1.4
+  gravityScale: 3
   controller: {fileID: 984308258}
   moveDirection: {x: 0, y: 0, z: 0}
 --- !u!1001 &1022688126
