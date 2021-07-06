@@ -12,16 +12,11 @@ public class rbmovement : MonoBehaviour
     {
         rb = this.GetComponent<Rigidbody>();
     }
-    private void Update()
-    {
-        movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-    }
     private void FixedUpdate()
     {
-        moveCharacter(movement);
-    }
-    void moveCharacter(Vector3 direction)
-    {
-        rb.MovePosition(transform.position + (direction * speed * Time.deltaTime));
+        float xMov = Input.GetAxisRaw("Horizontal");
+        float zMov = Input.GetAxisRaw("Vertical");
+    
+        rb.velocity = new Vector3(xMov, rb.velocity.y, zMov) * speed;
     }
 }
