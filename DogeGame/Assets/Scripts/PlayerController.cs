@@ -26,11 +26,11 @@ public class PlayerController : MonoBehaviour
         float verticalInput = Input.GetAxis("Vertical");
         moveDirection = new Vector3(horizontalInput, 0f, verticalInput);
 
-        if (Input.GetButtonDown("Jump"))
-        {
-            directionY = jumpSpeed;
-        }
-        //moveDirection.y -= gravityScale;
+            if (controller.isGrounded && Input.GetButtonDown("Jump"))
+            {
+                directionY = jumpSpeed;
+            }
+        
         directionY -= gravityScale * Time.deltaTime;
         moveDirection.y = directionY;
 
