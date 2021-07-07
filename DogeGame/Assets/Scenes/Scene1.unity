@@ -3109,7 +3109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpSpeed: 1.4
+  jumpHeight: 2
   gravityScale: 3
   controller: {fileID: 1784471993}
   moveDirection: {x: 0, y: 0, z: 0}

@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public float jumpSpeed = 1.4f;
+    public float jumpHeight = 2f;
     public float gravityScale = 3f;
     public CharacterController controller;
 
@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
 
             if (controller.isGrounded && Input.GetButtonDown("Jump"))
             {
-                directionY = jumpSpeed;
+                directionY = jumpHeight;
             }
         
         directionY -= gravityScale * Time.deltaTime;
