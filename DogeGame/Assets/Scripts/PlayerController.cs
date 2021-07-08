@@ -30,10 +30,12 @@ public class PlayerController : MonoBehaviour
             {
                 directionY = jumpHeight;
             }
-        
-        directionY -= gravityScale * Time.deltaTime;
-        moveDirection.y = directionY;
+        else
+        {
+            directionY -= gravityScale * Time.deltaTime;
+            moveDirection.y = directionY;
 
-        controller.Move(moveDirection * moveSpeed * Time.deltaTime);
+            controller.Move(moveDirection * moveSpeed * Time.deltaTime);
+        }
     }
 }
