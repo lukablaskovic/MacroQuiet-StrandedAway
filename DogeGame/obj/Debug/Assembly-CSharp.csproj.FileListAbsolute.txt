@@ -1,0 +1,2 @@
+C:\Users\Luka\Documents\GitHub\gameDevLZM\DogeGame\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+C:\Users\Luka\Documents\GitHub\gameDevLZM\DogeGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
