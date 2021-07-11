@@ -49,6 +49,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Parallax.cs" />
+     <Compile Include="Assets\Scripts\IdleBehavior.cs" />
+     <Compile Include="Assets\Scripts\FollowBehavior.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
  <Reference Include="UnityEngine">
  <HintPath>E:/Program files/2020.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

@@ -24,6 +24,9 @@ ModelImporter:
   - first:
       74: -3853831468666724009
     second: Swing (2)
+  - first:
+      74: 5598079256431474737
+    second: Swing (3)
   externalObjects: {}
   materials:
     materialImportMode: 2
