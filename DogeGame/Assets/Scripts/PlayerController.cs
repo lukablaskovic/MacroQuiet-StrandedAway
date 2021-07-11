@@ -20,8 +20,7 @@ public class PlayerController : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
-        animator.SetBool("Jump", false);
-        animator.SetBool("isGrounded", true);
+        animator.SetBool("gameStart", true);
     } 
 
     // Update is called once per frame
@@ -31,19 +30,29 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isGrounded", controller.isGrounded);
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
-        moveDirection = new Vector3(horizontalInput, 0f, verticalInput);
+
+        //moveDirection = new Vector3(horizontalInput, 0f, verticalInput);
+        moveDirection = controller.transform.forward * verticalInput;
         animator.SetFloat("Speed", moveDirection.magnitude);
 
-            if (controller.isGrounded && Input.GetButtonDown("Jump"))
+        if (controller.isGrounded)
+        {
+            animator.SetBool("gameStart", false);
+            animator.SetBool("isGrounded", false);
+            if (Input.GetButtonDown("Jump"))
             {
+                animator.SetBool("Jump", true);
                 directionY = jumpHeight;
-                animator.SetBool("Jump", !controller.isGrounded);
+                
+            }
         }
-            
         directionY -= gravityScale * Time.deltaTime;
         moveDirection.y = directionY;
-        
+
+        controller.transform.Rotate(Vector3.up * horizontalInput * (175f * Time.deltaTime));
+
         animator.SetBool("isGrounded", controller.isGrounded);
         controller.Move(moveDirection * moveSpeed * Time.deltaTime);
+        
     }
 }
