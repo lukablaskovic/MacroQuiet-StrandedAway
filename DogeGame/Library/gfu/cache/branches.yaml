@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 2
+  lastUpdatedAtString: 2021-07-11T21:00:38.589+02:00
+  initializedAtString: 2021-07-11T21:00:38.583+02:00
+  localBranches:
+  - name: enemyAI
+    tracking: origin/enemyAI
+  - name: main
+    tracking: origin/main
+  - name: testBranch
+    tracking: origin/testBranch
+  - name: testBranch2
+    tracking: origin/testBranch2
+  remoteBranches:
+  - name: origin/enemyAI
+    tracking: '[None]'
+  - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/main
+    tracking: '[None]'
+  - name: origin/testBranch
+    tracking: '[None]'
+  - name: origin/testBranch2
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/Blaskec/gameDevLZM.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  localConfigBranches:
+    keys:
+    - enemyAI
+    - main
+    - testBranch
+    - testBranch2
+    values:
+    - name: enemyAI
+      remote:
+        name: origin
+        url: https://github.com/Blaskec/gameDevLZM.git
+      trackingBranch: enemyAI
+    - name: main
+      remote:
+        name: origin
+        url: https://github.com/Blaskec/gameDevLZM.git
+      trackingBranch: main
+    - name: testBranch
+      remote:
+        name: origin
+        url: https://github.com/Blaskec/gameDevLZM.git
+      trackingBranch: testBranch
+    - name: testBranch2
+      remote:
+        name: origin
+        url: https://github.com/Blaskec/gameDevLZM.git
+      trackingBranch: testBranch2
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - enemyAI
+      - HEAD
+      - main
+      - testBranch
+      - testBranch2
+    subKeyValues:
+    - Values:
+      - name: enemyAI
+        remote:
+          name: origin
+          url: https://github.com/Blaskec/gameDevLZM.git
+        trackingBranch: 
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/Blaskec/gameDevLZM.git
+        trackingBranch: 
+      - name: main
+        remote:
+          name: origin
+          url: https://github.com/Blaskec/gameDevLZM.git
+        trackingBranch: 
+      - name: testBranch
+        remote:
+          name: origin
+          url: https://github.com/Blaskec/gameDevLZM.git
+        trackingBranch: 
+      - name: testBranch2
+        remote:
+          name: origin
+          url: https://github.com/Blaskec/gameDevLZM.git
+        trackingBranch: 
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/Blaskec/gameDevLZM.git
