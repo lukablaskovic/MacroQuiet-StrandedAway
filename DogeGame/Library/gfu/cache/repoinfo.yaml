@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-07-11T21:01:11.718+02:00
-  initializedAtString: 2021-07-11T21:01:11.718+02:00
+  lastUpdatedAtString: 2021-07-12T14:29:58.107+02:00
+  initializedAtString: 2021-07-12T14:01:38.299+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/Blaskec/gameDevLZM.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: testBranch2
-    tracking: origin/testBranch2
+    name: main
+    tracking: origin/main
   currentConfigBranch:
-    name: testBranch2
+    name: main
     remote:
       name: origin
       url: https://github.com/Blaskec/gameDevLZM.git
-    trackingBranch: testBranch2
+    trackingBranch: main
   currentConfigRemote:
     name: origin
     url: https://github.com/Blaskec/gameDevLZM.git

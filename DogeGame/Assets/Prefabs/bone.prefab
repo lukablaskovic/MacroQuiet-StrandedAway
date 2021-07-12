@@ -105,6 +105,8 @@ GameObject:
   - component: {fileID: 7457008986198394141}
   - component: {fileID: 4654586076316348887}
   - component: {fileID: -7728949870710698905}
+  - component: {fileID: 917248989357489524}
+  - component: {fileID: -1677653986912938495}
   m_Layer: 0
   m_Name: bone
   m_TagString: Untagged
@@ -195,3 +197,28 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &917248989357489524
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6600189150433841154}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5992968, y: 0.95736223, z: 2.5847497}
+  m_Center: {x: -0.00087784254, y: -0.3810837, z: -0.08027568}
+--- !u!114 &-1677653986912938495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6600189150433841154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3786672033af9f54a8df2f4d1637b9ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

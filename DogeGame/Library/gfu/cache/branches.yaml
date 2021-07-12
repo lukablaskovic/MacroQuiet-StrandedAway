@@ -13,27 +13,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-07-11T21:00:38.589+02:00
-  initializedAtString: 2021-07-11T21:00:38.583+02:00
+  lastUpdatedAtString: 2021-07-12T14:30:05.359+02:00
+  initializedAtString: 2021-07-12T14:29:59.175+02:00
   localBranches:
   - name: enemyAI
     tracking: origin/enemyAI
   - name: main
     tracking: origin/main
-  - name: testBranch
-    tracking: origin/testBranch
-  - name: testBranch2
-    tracking: origin/testBranch2
   remoteBranches:
   - name: origin/enemyAI
     tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/main
-    tracking: '[None]'
-  - name: origin/testBranch
-    tracking: '[None]'
-  - name: origin/testBranch2
     tracking: '[None]'
   remotes:
   - name: origin
@@ -47,8 +39,6 @@ MonoBehaviour:
     keys:
     - enemyAI
     - main
-    - testBranch
-    - testBranch2
     values:
     - name: enemyAI
       remote:
@@ -60,16 +50,6 @@ MonoBehaviour:
         name: origin
         url: https://github.com/Blaskec/gameDevLZM.git
       trackingBranch: main
-    - name: testBranch
-      remote:
-        name: origin
-        url: https://github.com/Blaskec/gameDevLZM.git
-      trackingBranch: testBranch
-    - name: testBranch2
-      remote:
-        name: origin
-        url: https://github.com/Blaskec/gameDevLZM.git
-      trackingBranch: testBranch2
   remoteConfigBranches:
     keys:
     - origin
@@ -78,8 +58,6 @@ MonoBehaviour:
       - enemyAI
       - HEAD
       - main
-      - testBranch
-      - testBranch2
     subKeyValues:
     - Values:
       - name: enemyAI
@@ -93,16 +71,6 @@ MonoBehaviour:
           url: https://github.com/Blaskec/gameDevLZM.git
         trackingBranch: 
       - name: main
-        remote:
-          name: origin
-          url: https://github.com/Blaskec/gameDevLZM.git
-        trackingBranch: 
-      - name: testBranch
-        remote:
-          name: origin
-          url: https://github.com/Blaskec/gameDevLZM.git
-        trackingBranch: 
-      - name: testBranch2
         remote:
           name: origin
           url: https://github.com/Blaskec/gameDevLZM.git
