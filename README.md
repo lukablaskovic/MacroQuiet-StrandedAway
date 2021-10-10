@@ -1,5 +1,5 @@
 # MacroQuiet-Stranded-away
-## 2D shooter/puzzle game about a traveller exploring abandoned planets and looking for past inhabitants.
+## 2D shooter/puzzle game about a space traveller exploring abandoned planets and looking for past inhabitants.
 
 Game is still a work in progress.
 
